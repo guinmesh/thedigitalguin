@@ -355,6 +355,7 @@ input, select, textarea {
 	#h2-menu {
 		color: #E0F50F;
 		margin-bottom: 1.5em;
+		margin-top: 0;
 	}
 
 	.special-h2 .symbol {
