@@ -3333,6 +3333,7 @@ input, select, textarea {
 							font-family: 'tuppence', Inter, Helvetica, sans-serif;
 							font-weight: 400;
 							text-transform: capitalize;
+							font-size: 1.1em;
 						}
 
 						#menu > .inner > ul > li a:hover {
