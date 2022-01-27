@@ -313,7 +313,7 @@ input, select, textarea {
 				font-size: 0.75em;
 			}
 
-			.content p, .content h2 {
+			.content p, .content h2, .content h2.special-h2 {
 				font-size: 1.5em;
 			}
 
@@ -417,6 +417,10 @@ input, select, textarea {
 			font-size: 0.8em;
 		}
 
+		.special-h2 {
+			font-size: 1.3em;
+			text-align: center;
+		}
 	}
 
 	sub {
@@ -2076,6 +2080,12 @@ input, select, textarea {
 			height: 4em;
 			margin: -2em 0 0 -2em;
 			width: 4em; } }
+			.tiles article > a h2 {
+				display: none;
+			}
+			.tiles article > a p {
+				display: none;
+			}
 	@media screen and (max-width: 480px) {
 	  .features article .icon:before {
 		font-size: 1.25rem; } }
