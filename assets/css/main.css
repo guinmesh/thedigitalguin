@@ -2084,7 +2084,7 @@ input, select, textarea {
 	  .features article .icon:before {
 		font-size: 1.25rem; } }
 
-	@media screen and (max-width: 732px) {
+	@media screen and (max-width: 736px) {
 		.tiles article > a h2 {
 			display: none;
 		}
@@ -3520,6 +3520,10 @@ input, select, textarea {
 
 					#menu > .close:before, #menu > .close:after {
 						background-size: 1.5em 1.5em;
+					}
+
+					#menu > .inner > ul > li a {
+						font-size: 1.1em;
 					}
 
 		}
