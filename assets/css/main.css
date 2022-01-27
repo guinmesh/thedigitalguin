@@ -2801,6 +2801,7 @@ input, select, textarea {
 			border-radius: 4px;
 			border: #ffffff;
 			background-color: #1F18C0;
+			z-index: 750;
 		}
 		
 			#btn-back-to-top:hover {
