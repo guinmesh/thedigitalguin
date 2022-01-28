@@ -124,6 +124,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.iframe {
+	text-align: center;
+}
+
 /* Basic */
 
 	@-ms-viewport {
