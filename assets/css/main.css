@@ -2096,6 +2096,9 @@ input, select, textarea {
 		.tiles article > a p {
 			display: none;
 		}
+		.tiles article > a:hover {
+			display: none;
+		}
 	}
 		
 	/* Section/Article */
