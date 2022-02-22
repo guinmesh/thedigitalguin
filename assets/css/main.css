@@ -2,6 +2,7 @@
 @import url(clash-grotesk.css);
 /* @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Inter:wght@200;300;400;500;600&display=swap"); */
 @import url("https://use.typekit.net/gwi0cmo.css");
+@import url(culture.css);
 
 @font-face {
 	font-family: 'ClashGrotesk-Light';
@@ -85,8 +86,8 @@ body {
 
 ol, ul {
 	list-style: none;
-	font-family: 'tuppence', Inter, Helvetica, sans-serif;
-	font-weight: 400;
+	font-family: 'Culture', Inter, Helvetica, sans-serif;
+	font-weight: bold;
 }
 
 blockquote, q {
@@ -220,9 +221,12 @@ input, select, textarea {
 
 	p {
 		margin: 2em;
-		font-family: 'ClashGrotesk-Light', Helvetica, sans-serif;
-		font-weight: 300;
+		/* font-family: 'ClashGrotesk-Light', Helvetica, sans-serif;
+		font-weight: 300; */
+		font-family: 'Culture', Arial, Helvetica, sans-serif;
+		font-weight: bold;
 		font-size: 0.95em;
+		letter-spacing: 0.02em;
 		line-height: 1.4em;
 	}
 
@@ -332,8 +336,8 @@ input, select, textarea {
 		}
 
 	h3 {
-		font-weight: 400;
-		font-family: 'tuppence', Inter, Helvetica, sans-serif;
+		font-weight: bold;
+		font-family: 'Culture', Inter, Helvetica, sans-serif;
 		letter-spacing: 0.01em;
 		text-transform: none;
 		margin: 1.2em 0 1.2em 0;
@@ -2208,8 +2212,10 @@ input, select, textarea {
 		list-style: none;
 		margin: 0 0 2em 2em;
 		padding-left: 1em;
-		font-family: 'ClashGrotesk-Light', Helvetica, sans-serif;
-		font-weight: 300;
+		/* font-family: 'ClashGrotesk-Light', Helvetica, sans-serif;
+		font-weight: 300; */
+		font-family: 'Culture', Arial, Helvetica, sans-serif;
+		font-weight: bold;
 		font-size: 0.95em;
 		line-height: 1.4em;
 	}
@@ -2480,8 +2486,8 @@ input, select, textarea {
 		font-size: 0.9em;
 		font-weight: 900;
 		margin: 0 0 1em 0;
-		font-family: 'tuppence', Inter, Helvetica, sans-serif;
-		font-weight: 400;
+		font-family: 'Culture', Inter, Helvetica, sans-serif;
+		font-weight: bold;
 	}
 
 	input[type="text"],
@@ -2504,8 +2510,8 @@ input, select, textarea {
 		padding: 0;
 		text-decoration: none;
 		width: 100%;
-		font-family: 'tuppence', Inter, Helvetica, sans-serif;
-		font-weight: 400;
+		font-family: 'Culture', Inter, Helvetica, sans-serif;
+		font-weight: bold;
 	}
 
 		input[type="text"]:invalid,
@@ -2740,8 +2746,8 @@ input, select, textarea {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
-		font-family: 'tuppence', Inter, Helvetica, sans-serif;
-		font-weight: 400;
+		font-family: 'Culture', Inter, Helvetica, sans-serif;
+		font-weight: bold;
 	}
 
 		table tbody tr {
@@ -3080,8 +3086,8 @@ input, select, textarea {
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
-					font-family: 'tuppence', Inter, Helvetica, sans-serif;
-		font-weight: 400;
+					font-family: 'Culture', Inter, Helvetica, sans-serif;
+					font-weight: bold;
 				}
 
 					.tiles article > a .content > :last-child {
@@ -3224,8 +3230,8 @@ input, select, textarea {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-family: 'tuppence', Inter, Helvetica, sans-serif;
-			font-weight: 400;
+			font-family: 'Culture', Inter, Helvetica, sans-serif;
+			font-weight: bold;
 			letter-spacing: 0.01em;
 			margin: 0 0 2.5em 0;
 			font-size: 1.3em;
@@ -3339,8 +3345,8 @@ input, select, textarea {
 						}
 
 						#menu > .inner > ul > li a {
-							font-family: 'tuppence', Inter, Helvetica, sans-serif;
-							font-weight: 400;
+							font-family: 'Culture', Inter, Helvetica, sans-serif;
+							font-weight: bold;
 							text-transform: capitalize;
 							font-size: 1.1em;
 						}
@@ -3582,8 +3588,8 @@ input, select, textarea {
 
 #page-links ul {
 	list-style: none;
-	font-family: 'tuppence', Inter, Helvetica, sans-serif;
-	font-weight: 400;
+	font-family: 'Culture', Inter, Helvetica, sans-serif;
+	font-weight: bold;
 	font-size: 1em;
 	text-transform: none;
 	margin: 0 0 3em 0;
@@ -3644,7 +3650,8 @@ input, select, textarea {
 				list-style: none;
 				font-size: 0.8em;
 				color: #CCCCCC;
-				font-family: 'tuppence', Inter, Helvetica, sans-serif;
+				font-family: 'Culture', Inter, Helvetica, sans-serif;
+				font-weight: bold;
 			}
 
 				#footer > .inner .copyright a {

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Culture Outline';
+    src: url('assets/webfonts/CultureOutline.woff2') format('woff2'),
+        url('assets/webfonts/CultureOutline.woff') format('woff'),
+        url('assets/webfonts/CultureRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Culture Bold Outline';
+    src: url('assets/webfonts/CultureBoldOutline.woff2') format('woff2'),
+        url('assets/webfonts/CultureBoldOutline.woff') format('woff'),
+        url('assets/webfonts/CultureBoldOutline.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Culture';
+    src: url('assets/webfonts/CultureBold.woff2') format('woff2'),
+        url('assets/webfonts/CultureBold.woff') format('woff'),
+        url('assets/webfonts/CultureBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Culture';
+    src: url('assets/webfonts/CultureRegular.woff2') format('woff2'),
+        url('assets/webfonts/CultureRegular.woff') format('woff'),
+        url('assets/webfonts/CultureRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
