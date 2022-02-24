@@ -2,7 +2,6 @@
 @import url(clash-grotesk.css);
 /* @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Inter:wght@200;300;400;500;600&display=swap"); */
 @import url("https://use.typekit.net/gwi0cmo.css");
-@import url(culture.css);
 
 @font-face {
 	font-family: 'ClashGrotesk-Light';
@@ -86,8 +85,8 @@ body {
 
 ol, ul {
 	list-style: none;
-	font-family: 'Culture', Inter, Helvetica, sans-serif;
-	font-weight: bold;
+	font-family: 'sofia-pro', Helvetica, sans-serif;
+	font-weight: 300;
 }
 
 blockquote, q {
@@ -173,8 +172,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
-		font-family: 'ClashGrotesk-Light', Helvetica, sans-serif;
+		color: #fafafa;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -221,10 +220,8 @@ input, select, textarea {
 
 	p {
 		margin: 2em;
-		/* font-family: 'ClashGrotesk-Light', Helvetica, sans-serif;
-		font-weight: 300; */
-		font-family: 'Culture', Arial, Helvetica, sans-serif;
-		font-weight: bold;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		font-weight: 300;
 		font-size: 0.95em;
 		letter-spacing: 0.02em;
 		line-height: 1.4em;
@@ -337,19 +334,20 @@ input, select, textarea {
 
 	h3 {
 		font-weight: bold;
-		font-family: 'Culture', Inter, Helvetica, sans-serif;
-		letter-spacing: 0.01em;
-		text-transform: none;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		font-weight: 300;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
 		margin: 1.2em 0 1.2em 0;
 	}
 
 	h2, h4, h5, h6 {
-		font-weight: 900;
-		font-family: 'ClashGrotesk-Semibold', pragmatica-extended, Helvetica, sans-serif;
-		line-height: 1.5;
+		font-weight: bold;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		line-height: 1.2;
 		margin: 2em 0 1em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.2em;
+		letter-spacing: 0.1em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -364,6 +362,7 @@ input, select, textarea {
 		color: #E0F50F;
 		margin-bottom: 1.5em;
 		margin-top: 0;
+		display: none;
 	}
 
 	.special-h2 .symbol {
@@ -2012,7 +2011,7 @@ input, select, textarea {
 		text-align: center;
 		width: 10em; }
 		.features article .icon:before {
-		  color: #ffffff;
+		  color: #fafafa;
 		  font-size: 2.75rem;
 		  position: relative;
 		  top: 0.05em; }
@@ -2166,7 +2165,7 @@ input, select, textarea {
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
-			border: solid 1px #ffffff;
+			border: solid 1px #fafafa;
 			border-radius: 4px;
 			width: 2.65em;
 			height: 2.65em;
@@ -2212,10 +2211,8 @@ input, select, textarea {
 		list-style: none;
 		margin: 0 0 2em 2em;
 		padding-left: 1em;
-		/* font-family: 'ClashGrotesk-Light', Helvetica, sans-serif;
-		font-weight: 300; */
-		font-family: 'Culture', Arial, Helvetica, sans-serif;
-		font-weight: bold;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		font-weight: 300;
 		font-size: 0.95em;
 		line-height: 1.4em;
 	}
@@ -2486,8 +2483,8 @@ input, select, textarea {
 		font-size: 0.9em;
 		font-weight: 900;
 		margin: 0 0 1em 0;
-		font-family: 'Culture', Inter, Helvetica, sans-serif;
-		font-weight: bold;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		font-weight: 300;
 	}
 
 	input[type="text"],
@@ -2510,8 +2507,8 @@ input, select, textarea {
 		padding: 0;
 		text-decoration: none;
 		width: 100%;
-		font-family: 'Culture', Inter, Helvetica, sans-serif;
-		font-weight: bold;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		font-weight: 300;
 	}
 
 		input[type="text"]:invalid,
@@ -2548,7 +2545,7 @@ input, select, textarea {
 	}
 
 		select option {
-			background: #ffffff;
+			background: #fafafa;
 		}
 
 		select:focus::-ms-value {
@@ -2630,8 +2627,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #ffffff;
-			border-color: #ffffff;
+			background: #fafafa;
+			border-color: #fafafa;
 			color: #1F18C0;
 			content: '\f00c';
 		}
@@ -2746,8 +2743,8 @@ input, select, textarea {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
-		font-family: 'Culture', Inter, Helvetica, sans-serif;
-		font-weight: bold;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		font-weight: 300;
 	}
 
 		table tbody tr {
@@ -2812,7 +2809,7 @@ input, select, textarea {
 			bottom: 2em;
 			display: none;
 			border-radius: 4px;
-			border: #ffffff;
+			border: #fafafa;
 			background-color: #1F18C0;
 			z-index: 750;
 		}
@@ -2839,14 +2836,14 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #ffffff;
-		color: #ffffff !important;
+		box-shadow: inset 0 0 0 2px #fafafa;
+		color: #fafafa !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
 		font-weight: 900;
 		height: 3.5em;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.1em;
 		line-height: 3.45em;
 		overflow: hidden;
 		padding: 0 1.25em 0 1.6em;
@@ -2855,8 +2852,8 @@ input, select, textarea {
 		text-overflow: ellipsis;
 		text-transform: uppercase;
 		white-space: nowrap;
-		font-family: 'ClashGrotesk-Semibold', Helvetica, sans-serif;
-		font-weight: 600;
+		font-family: 'sofia-pro', Helvetica, sans-serif;
+		font-weight: 700;
 	}
 
 		input[type="submit"].icon:before,
@@ -2915,7 +2912,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #ffffff;
+			background-color: #fafafa;
 			color: #1F18C0 !important;
 		}
 
@@ -3021,7 +3018,7 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E"); */
+					/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23fafafa%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E"); */
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
@@ -3058,7 +3055,7 @@ input, select, textarea {
 				padding: 1em;
 				border-radius: 0px;
 				border-bottom: 0;
-				color: #ffffff;
+				color: #fafafa;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
@@ -3069,7 +3066,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #ffffff !important;
+					color: #fafafa !important;
 				}
 
 				.tiles article > a h2 {
@@ -3086,8 +3083,8 @@ input, select, textarea {
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
-					font-family: 'Culture', Inter, Helvetica, sans-serif;
-					font-weight: bold;
+					font-family: 'sofia-pro', Helvetica, sans-serif;
+					font-weight: 300;
 				}
 
 					.tiles article > a .content > :last-child {
@@ -3230,13 +3227,13 @@ input, select, textarea {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-family: 'Culture', Inter, Helvetica, sans-serif;
+			font-family: 'sofia-pro', Helvetica, sans-serif;
 			font-weight: bold;
-			letter-spacing: 0.01em;
+			letter-spacing: 0.1em;
 			margin: 0 0 2.5em 0;
 			font-size: 1.3em;
 			text-decoration: none;
-			text-transform: none;
+			text-transform: uppercase;
 			display: inline-block;
 		}
 
@@ -3345,9 +3342,10 @@ input, select, textarea {
 						}
 
 						#menu > .inner > ul > li a {
-							font-family: 'Culture', Inter, Helvetica, sans-serif;
-							font-weight: bold;
-							text-transform: capitalize;
+							font-family: 'sofia-pro', Helvetica, sans-serif;
+							font-weight: 300;
+							text-transform: uppercase;
+							letter-spacing: 0.08em;
 							font-size: 1.1em;
 						}
 
@@ -3407,7 +3405,7 @@ input, select, textarea {
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
 		background: #1F18C0;
-		color: #ffffff;
+		color: #fafafa;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
@@ -3588,8 +3586,8 @@ input, select, textarea {
 
 #page-links ul {
 	list-style: none;
-	font-family: 'Culture', Inter, Helvetica, sans-serif;
-	font-weight: bold;
+	font-family: 'sofia-pro', Helvetica, sans-serif;
+	font-weight: 300;
 	font-size: 1em;
 	text-transform: none;
 	margin: 0 0 3em 0;
@@ -3650,8 +3648,8 @@ input, select, textarea {
 				list-style: none;
 				font-size: 0.8em;
 				color: #CCCCCC;
-				font-family: 'Culture', Inter, Helvetica, sans-serif;
-				font-weight: bold;
+				font-family: 'sofia-pro', Helvetica, sans-serif;
+				font-weight: 300;
 			}
 
 				#footer > .inner .copyright a {
