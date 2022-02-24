@@ -201,8 +201,8 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #CCCCCC;
-		border-bottom: dotted 1px #CCCCCC;
+		color: #fafafa;
+		border-bottom: dotted 1px #fafafa;
 	}
 
 		a:hover {
@@ -2500,7 +2500,7 @@ input, select, textarea {
 		background-color: transparent;
 		border: none;
 		border-radius: 0;
-		border-bottom: solid 1px #CCCCCC;
+		border-bottom: solid 1px #fafafa;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2585,7 +2585,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #CCCCCC;
+			color: #fafafa;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -3647,7 +3647,7 @@ input, select, textarea {
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: #CCCCCC;
+				color: #fafafa;
 				font-family: 'sofia-pro', Helvetica, sans-serif;
 				font-weight: 300;
 			}
