@@ -219,7 +219,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 2em;
+		margin-bottom: 2em;
 		font-family: 'sofia-pro', Helvetica, sans-serif;
 		font-weight: 300;
 		font-size: 0.95em;
@@ -2209,8 +2209,8 @@ input, select, textarea {
 
 	ul {
 		list-style: none;
-		margin: 0 0 2em 2em;
-		padding-left: 1em;
+		margin: 0 0 2em 0;
+		padding-left: 0;
 		font-family: 'sofia-pro', Helvetica, sans-serif;
 		font-weight: 300;
 		font-size: 0.95em;
@@ -2218,7 +2218,7 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0;
 		}
 
 		ul.alt {
