@@ -124,6 +124,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+caption {
+	text-align: center;
+	color: #A8A8A8 !important;
+}
+
 .iframe {
 	text-align: center;
 }
@@ -207,7 +212,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #E0F50F !important;
+			color: #E0F50F;
 		}
 
 	strong, b {
@@ -300,7 +305,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		letter-spacing: -0.04em;
 	}
 
 		h1 a {
@@ -2676,6 +2681,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		color: #a3a3a3;
 	}
 
 		.image img {
@@ -2707,7 +2713,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 1em 0 2em 0;
 			width: 100%;
 		}
 
