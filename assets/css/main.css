@@ -2100,12 +2100,15 @@ caption {
 	@media screen and (max-width: 736px) {
 		.tiles article > a h2 {
 			/* display: none; */
+			z-index: 999999;
 		}
 		.tiles article > a p {
 			/* display: none; */
+			z-index: 999999;
 		}
 		.tiles article > a:hover {
 			/* display: none; */
+			z-index: 999999;
 		}
 	}
 		
