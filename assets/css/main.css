@@ -2099,10 +2099,10 @@ caption {
 
 	@media screen and (max-width: 736px) {
 		.tiles article > a h2 {
-			display: none;
+			/* display: none; */
 		}
 		.tiles article > a p {
-			display: none;
+			/* display: none; */
 		}
 		.tiles article > a:hover {
 			display: none;
