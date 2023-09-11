@@ -116,7 +116,7 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
+p a:hover {
   background-color: var(--color-secondary);
   color: var(--color-default);
 }
@@ -161,6 +161,7 @@ figcaption {
   font-weight: 300;
   text-align: left;
 }
+
 
 /* Back to top button */
 #btn-back-to-top {
