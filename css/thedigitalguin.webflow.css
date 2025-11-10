@@ -1727,7 +1727,7 @@ figcaption {
 }
 
 .nav-logo-text {
-  font-size: 2.3rem;
+  font-size: 1rem;
   letter-spacing: 0.02em;
   text-transform: lowercase;
   font-weight: 400;
@@ -3709,7 +3709,7 @@ iframe {
   }
 
   .case-title-wrapper {
-    margin-top: 0px;
+    margin-top: 6rem;
   }
 
   .case-info-wrapper {
