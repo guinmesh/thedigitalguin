@@ -7,10 +7,10 @@
 /* Colors */
 
 :root {
-  --color-default: #000;
-  --color-primary: #fff;
-  --color-secondary: #E0F50F;
-  --color-tertiary: #E0C9F2;
+  --color-default: #fcfaf7;
+  --color-primary: #375c1c;
+  --color-secondary: #375c1c;
+  --color-tertiary: #F2785C;
   --color-a: #C1E2FD;
   --color-hover: rgb(1, 77, 68, 0.6);
 }
@@ -36,7 +36,7 @@ html {
 
 body {
   background-color: var(--color-default);
-  font-family: Clashdisplay, sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: var(--color-primary);
   font-size: 1vw;
   line-height: 1.2;
@@ -50,7 +50,7 @@ h1 {
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: -2px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 h2 {
@@ -60,7 +60,7 @@ h2 {
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 h3 {
@@ -70,7 +70,7 @@ h3 {
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 h4 {
@@ -80,7 +80,7 @@ h4 {
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 h5 {
@@ -88,7 +88,7 @@ h5 {
   margin-bottom: 0px;
   font-size: 3.5em;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.01em;
 }
 
@@ -98,7 +98,7 @@ h6 {
   font-size: 2em;
   line-height: 1.2;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 p {
@@ -107,17 +107,18 @@ p {
   line-height: 1.28;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  text-transform: lowercase;
 }
 
 a {
   display: inline-block;
-  color: #E0F50F;
+  color: var(--color-primary);
   line-height: 1.56;
   text-decoration: underline;
 }
 
 p a:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-tertiary);
   color: var(--color-default);
 }
 
@@ -130,7 +131,7 @@ ul {
 form {
   font-size: 1em;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 label {
@@ -168,16 +169,17 @@ figcaption {
   position: fixed;
   right: 2em;
   bottom: 2em;
+  font-size: 0.9rem;
   display: none;
   padding: 1em 1em;
-  border-radius: 20px;
+  border-radius: 40px;
   border-width: 3px;
   border-style: solid;
   border-color: var(--color-primary);
   background-color: var(--color-default);
   color: var(--color-primary);
   z-index: 9999;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
   #btn-back-to-top:hover {
@@ -519,7 +521,7 @@ figcaption {
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .sg-colors-container {
@@ -671,7 +673,7 @@ figcaption {
   font-weight: 500;
   text-align: center;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .button:hover {
@@ -777,16 +779,16 @@ figcaption {
 }
 
 .nav-link {
-  display: block;
+  /* display: block; */
   padding: 0px;
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
   color: var(--color-primary);
   font-size: 2.3em;
   line-height: 1.3;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.01em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .nav-link:hover {
@@ -801,7 +803,7 @@ figcaption {
   text-decoration: underline;
 }
 
-.nav-link.social {
+/* .nav-link.social {
   color: var(--color-primary);
   text-decoration: underline;
 }
@@ -811,13 +813,13 @@ figcaption {
 }
 
 .nav-link.social.footer {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-primary);
 }
 
 .nav-link.social.footer:hover {
   color: var(--color-default);
   background-color: var(--color-secondary);
-}
+} */
 
 .center-wrapper {
   display: -webkit-box;
@@ -889,7 +891,7 @@ figcaption {
   align-items: center;
   color: #828283;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .footer-small-link {
@@ -903,7 +905,7 @@ figcaption {
   font-size: 12px;
   font-style: italic;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .footer-small-link:hover {
@@ -1013,10 +1015,10 @@ figcaption {
 
 .page-loader-logo {
   font-size: 2em;
-  font-style: italic;
+  font-style: normal;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .grey {
@@ -1186,7 +1188,7 @@ figcaption {
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .text-field:hover {
@@ -1240,7 +1242,7 @@ figcaption {
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .select-field:hover {
@@ -1288,7 +1290,7 @@ figcaption {
   font-size: 2.5em;
   /* font-style: italic; */
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .hero-image-wrapper {
@@ -1567,7 +1569,7 @@ figcaption {
 .project-tile-heading.portfolio-grid {
   font-size: 1.3em;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .tags-wrapper {
@@ -1591,7 +1593,7 @@ figcaption {
   border-color: var(--color-default);
   border-radius: 50em;
   /* background-color: #ece4fd; */
-  background-color: #E0F50F;
+  background-color: var(--color-primary);
   color: var(--color-default);
 }
 
@@ -1726,7 +1728,8 @@ figcaption {
 
 .nav-logo-text {
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-weight: 400;
   z-index: 1;
   font-style: normal;
 }
@@ -1892,7 +1895,7 @@ figcaption {
   color: #828283;
   font-size: 1.1em;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   white-space: nowrap;
 }
 
@@ -1965,7 +1968,7 @@ figcaption {
   align-items: center;
   border-radius: 50%;
   background-color: var(--color-default);
-  filter: drop-shadow(0 0 2em white);
+  filter: drop-shadow(0 0 2em var(--color-tertiary));
   -webkit-transform: scale(0.2);
   -ms-transform: scale(0.2);
   transform: scale(0.2);
@@ -1973,7 +1976,7 @@ figcaption {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .cursor-text {
@@ -2033,11 +2036,11 @@ figcaption {
   font-weight: 500;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
+.text-lowercase {
+  text-transform: lowercase;
 }
 
-.text-uppercase.text-italic {
+.text-lowercase.text-italic {
   font-style: italic;
 }
 
@@ -2085,13 +2088,13 @@ figcaption {
   align-items: center;
   border-radius: 50em;
   background-color: var(--color-default);
-  filter: drop-shadow(0 0 2em white);
+  filter: drop-shadow(0 0 2em var(--color-tertiary));
   color: var(--color-primary);
 }
 
 .bubble-text {
-  font-size: 0.8em;
-  text-transform: uppercase;
+  font-size: 1.2em;
+  text-transform: lowercase;
 }
 
 .hero-image {
@@ -2579,7 +2582,7 @@ iframe {
 }
 
 .hero-title {
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .about-wrapper {
@@ -2667,7 +2670,7 @@ iframe {
 
 .contact-me-text {
   font-size: 1em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .case-image-tile {
@@ -2708,7 +2711,7 @@ iframe {
 
 .blog-item-title {
   font-size: 1.5em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 @media screen and (max-width: 991px) {
@@ -2831,7 +2834,7 @@ iframe {
   .nav-brand {
     margin-right: 0px;
     color: var(--color-primary);
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-weight: 600;
   }
 
@@ -2870,7 +2873,7 @@ iframe {
   }
 
   .nav-link.w--current {
-    /* box-shadow: inset 0 -1px 0 0 var(--color-default); */
+    box-shadow: inset 0 -1px 0 0 var(--color-default);
     color: var(--color-default);
     background-color: var(--color-secondary);
   }
@@ -3319,8 +3322,8 @@ iframe {
     padding: 48px 16px;
   }
 
-  .paragraph.small.text-uppercase.text-italic {
-    font-size: 0.7rem;
+  .paragraph.small.text-lowercase.text-italic {
+    font-size: 0.9rem;
   }
 
   .link {
