@@ -7,7 +7,7 @@
 /* Colors */
 
 :root {
-  --color-default: #fcfaf7;
+  --color-default: #ffffff;
   --color-primary: #375c1c;
   --color-secondary: #375c1c;
   --color-tertiary: #F2785C;
@@ -35,7 +35,6 @@ html {
 }
 
 body {
-  background-color: var(--color-default);
   font-family: "Helvetica", sans-serif;
   color: var(--color-primary);
   font-size: 1vw;
@@ -44,6 +43,7 @@ body {
 }
 
 h1 {
+  color: var(--color-primary);
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 5em;
@@ -64,6 +64,7 @@ h2 {
 }
 
 h3 {
+  color: var(--color-primary);
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 3.5em;
@@ -1727,6 +1728,7 @@ figcaption {
 }
 
 .nav-logo-text {
+  font-size: 2.3rem;
   letter-spacing: 0.02em;
   text-transform: lowercase;
   font-weight: 400;
