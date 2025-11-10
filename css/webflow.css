@@ -85,7 +85,7 @@ html.w-mod-touch * {
   display: none;
 }
 .w-button {
-  display: inline-block;
+  /* display: inline-block;
   padding: 9px 15px;
   background-color: #3898EC;
   color: white;
@@ -93,7 +93,7 @@ html.w-mod-touch * {
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 0;
+  border-radius: 0; */
 }
 input.w-button {
   -webkit-appearance: button;
