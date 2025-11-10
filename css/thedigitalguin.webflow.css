@@ -107,7 +107,7 @@ p {
   line-height: 1.28;
   font-weight: 400;
   text-rendering: optimizeLegibility;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 
 a {
